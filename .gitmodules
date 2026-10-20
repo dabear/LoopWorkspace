@@ -1,9 +1,11 @@
 [submodule "Loop"]
 	path = Loop
-	url = https://github.com/LoopKit/Loop.git
+	url = https://github.com/bjorninge-no-personal/LoopPebble.git
+	branch = watch-manager
 [submodule "LoopKit"]
 	path = LoopKit
-	url = https://github.com/LoopKit/LoopKit.git
+	url = https://github.com/dabear/LoopKit.git
+	branch = watch-manager
 [submodule "CGMBLEKit"]
 	path = CGMBLEKit
 	url = https://github.com/LoopKit/CGMBLEKit.git
@@ -73,3 +75,7 @@
 [submodule "RoundWhiteDiscKit"]
 	path = RoundWhiteDiscKit
 	url = https://github.com/airedev326/RoundWhiteDiscKit.git
+[submodule "LupedKitWatchFace"]
+	path = LupedKitWatchFace
+	url = https://github.com/dabear/LupedKitWatchFace.git
+	branch = main
