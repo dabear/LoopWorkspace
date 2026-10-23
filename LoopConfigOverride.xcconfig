@@ -1,7 +1,8 @@
 #include? "../../LoopConfigOverride.xcconfig"
 
 // Override this if you don't want the default com.${DEVELOPMENT_TEAM}.loopkit that loop uses
-// MAIN_APP_BUNDLE_IDENTIFIER = com.myname.loop
+// The Loop project appends `.Loop` for its main app target.
+MAIN_APP_BUNDLE_IDENTIFIER = no.bjorninge.2024v1.loop
 
 // Customize this to change the app name displayed
 //MAIN_APP_DISPLAY_NAME = Loop
@@ -16,7 +17,11 @@
 //LOOP_BLUETOOTH_PERIPHERAL_BACKGROUND_MODE = YES
 
 // Features
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) EXPERIMENTAL_FEATURES_ENABLED SIMULATORS_ENABLED ALLOW_ALGORITHM_EXPERIMENTS DEBUG_FEATURES_ENABLED
+// CRITICAL_ALERTS_ENABLED turns on iOS critical alerts: urgent alerts bypass
+// Mute/DND and forward to the watch as the critical level instead of warning.
+// Requires the critical-alerts entitlement + a matching provisioning profile.
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) EXPERIMENTAL_FEATURES_ENABLED SIMULATORS_ENABLED ALLOW_ALGORITHM_EXPERIMENTS DEBUG_FEATURES_ENABLED CRITICAL_ALERTS_ENABLED
 
-// Put your team id here for signing
+// Put your team id here for signing. The selected Apple provisioning profile
+// must match this App ID and contain the Critical Alerts capability.
 //LOOP_DEVELOPMENT_TEAM = UY678SP37Q

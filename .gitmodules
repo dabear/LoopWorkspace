@@ -59,7 +59,7 @@
 	url = https://github.com/LoopKit/LibreLoop.git
 [submodule "LoopAlgorithm"]
 	path = LoopAlgorithm
-	url = https://github.com/LoopKit/LoopAlgorithm.git
+	url = https://github.com/dabear/LoopAlgorithm.git
 [submodule "OmnipodKit"]
 	path = OmnipodKit
 	url = https://github.com/loopandlearn/OmnipodKit.git
