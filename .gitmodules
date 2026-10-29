@@ -1,7 +1,7 @@
 [submodule "Loop"]
 	path = Loop
 	url = https://github.com/bjorninge-no-personal/LoopPebble.git
-	branch = smartwatch-manager
+	branch = smartwatch-manager-pr-plus-local-changes
 [submodule "LoopKit"]
 	path = LoopKit
 	url = https://github.com/dabear/LoopKit.git
@@ -59,7 +59,7 @@
 	url = https://github.com/LoopKit/LibreLoop.git
 [submodule "LoopAlgorithm"]
 	path = LoopAlgorithm
-	url = https://github.com/LoopKit/LoopAlgorithm.git
+	url = https://github.com/dabear/LoopAlgorithm.git
 [submodule "OmnipodKit"]
 	path = OmnipodKit
 	url = https://github.com/loopandlearn/OmnipodKit.git
