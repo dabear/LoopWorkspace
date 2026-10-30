@@ -1,5 +1,5 @@
 {
-  "originHash" : "4090e9d59e29816900fd7f323e28fd56c397c5f7317a385eab36723f076e741c",
+  "originHash" : "4f012abb426e0a201e0484d769e08540f8897a224b27c26e9c9c1f233e02e75e",
   "pins" : [
     {
       "identity" : "amplitude-ios",
@@ -110,6 +110,15 @@
       }
     },
     {
+      "identity" : "mkringprogressview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxkonovalov/MKRingProgressView.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "660888aab1d2ab0ed7eb9eb53caec12af4955fa7"
+      }
+    },
+    {
       "identity" : "nightscoutkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LoopKit/NightscoutKit",
@@ -169,6 +178,14 @@
       "state" : {
         "branch" : "dev",
         "revision" : "290bd0431c55e8d0e0e542b163de13b1f07b77d9"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LoopKit/ZIPFoundation.git",
+      "state" : {
+        "revision" : "c67b7509ec82ee2b4b0ab3f97742b94ed9692494"
       }
     }
   ],
