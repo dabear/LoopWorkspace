@@ -1,5 +1,5 @@
 {
-  "originHash" : "4f012abb426e0a201e0484d769e08540f8897a224b27c26e9c9c1f233e02e75e",
+  "originHash" : "4090e9d59e29816900fd7f323e28fd56c397c5f7317a385eab36723f076e741c",
   "pins" : [
     {
       "identity" : "amplitude-ios",
@@ -69,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/dabear/elbbepTransport.git",
       "state" : {
-        "revision" : "0a830ebc0b483729411db707ad3831df3e259d41",
-        "version" : "0.3.51"
+        "revision" : "0a1f95176eabbe3d0e829ef968b9d8bc650613c2",
+        "version" : "0.3.52"
       }
     },
     {
@@ -107,15 +107,6 @@
       "state" : {
         "branch" : "master",
         "revision" : "b4cb3f6e3e3084e1637c4dfe06c2dcda169ff523"
-      }
-    },
-    {
-      "identity" : "mkringprogressview",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/maxkonovalov/MKRingProgressView.git",
-      "state" : {
-        "branch" : "master",
-        "revision" : "660888aab1d2ab0ed7eb9eb53caec12af4955fa7"
       }
     },
     {
@@ -178,14 +169,6 @@
       "state" : {
         "branch" : "dev",
         "revision" : "290bd0431c55e8d0e0e542b163de13b1f07b77d9"
-      }
-    },
-    {
-      "identity" : "zipfoundation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/LoopKit/ZIPFoundation.git",
-      "state" : {
-        "revision" : "c67b7509ec82ee2b4b0ab3f97742b94ed9692494"
       }
     }
   ],
