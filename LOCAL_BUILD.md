@@ -22,7 +22,7 @@ Every submodule commit is on GitHub. The local branches the submodules follow
 | LupedSmartwatchKit | dabear/LupedSmartwatchKit        | `smartwatch-manager-review-pr-plus-local-changes` |
 | LoopKit            | dabear/LoopKit                   | `smartwatch-manager-review-pr-plus-local-changes` |
 
-Swift packages resolve from `Package.resolved` (elbbepTransport 1.2.0).
+Swift packages resolve from `Package.resolved` (elbbepTransport 1.3.1).
 
 ## Signing
 
