@@ -136,6 +136,9 @@
       location = "group:LupedSmartwatchKit/LupedSmartwatchKit.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:GarminSmartwatchKit/GarminSmartwatchKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LibreTransmitter/LibreTransmitter.xcodeproj">
    </FileRef>
    <FileRef

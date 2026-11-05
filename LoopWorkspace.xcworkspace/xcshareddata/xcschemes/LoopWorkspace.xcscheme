@@ -336,6 +336,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C45E36D2066C203987AF454C"
+               BuildableName = "GarminSmartwatchPlugin.loopplugin"
+               BlueprintName = "GarminSmartwatchPlugin"
+               ReferencedContainer = "container:GarminSmartwatchKit/GarminSmartwatchKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B40BF25D23ABD47400A43CEE"
                BuildableName = "LibreTransmitterPlugin.loopplugin"
                BlueprintName = "LibreTransmitterPlugin"

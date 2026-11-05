@@ -79,3 +79,6 @@
 	path = LupedSmartwatchKit
 	url = https://github.com/dabear/LupedSmartwatchKit.git
 	branch = smartwatch-manager-review-pr-plus-local-changes
+[submodule "GarminSmartwatchKit"]
+	path = GarminSmartwatchKit
+	url = https://github.com/dabear/GarminSmartwatchKit.git
