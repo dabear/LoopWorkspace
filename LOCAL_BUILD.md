@@ -3,7 +3,8 @@
 This is `smartwatch-manager-review-pr-plus-local-changes`: the smartwatch
 manager review branch plus local changes. It builds Loop with the Pebble plugin
 (LupedSmartwatchKit) that serves both Luped CGM (watchface) and Luped Remote
-(watchapp), with every remote action declared. Loop's own Watch Permissions
+(watchapp), with every remote action declared, and the Garmin plugin
+(GarminSmartwatchKit, experimental), which Add Watch offers like any watch. Loop's own Watch Permissions
 still decide each action; all are off until you turn them on.
 
 ## Clone
@@ -21,8 +22,10 @@ Every submodule commit is on GitHub. The local branches the submodules follow
 | Loop               | bjorninge-no-personal/LoopPebble | `smartwatch-manager-review-pr-plus-local-changes` |
 | LupedSmartwatchKit | dabear/LupedSmartwatchKit        | `smartwatch-manager-review-pr-plus-local-changes` |
 | LoopKit            | dabear/LoopKit                   | `smartwatch-manager-review-pr-plus-local-changes` |
+| GarminSmartwatchKit | dabear/GarminSmartwatchKit      | `main`                                            |
 
-Swift packages resolve from `Package.resolved` (elbbepTransport 1.3.1).
+Swift packages resolve from `Package.resolved` (elbbepTransport 1.4.6, Garmin's
+Connect IQ SDK 1.8.0).
 
 ## Signing
 
