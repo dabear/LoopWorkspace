@@ -3,9 +3,11 @@
 This is `smartwatch-manager-review-pr-plus-local-changes`: the smartwatch
 manager review branch plus local changes. It builds Loop with the Pebble plugin
 (LupedSmartwatchKit) that serves both Luped CGM (watchface) and Luped Remote
-(watchapp), with every remote action declared, and the Garmin plugin
-(GarminSmartwatchKit, experimental), which Add Watch offers like any watch. Loop's own Watch Permissions
-still decide each action; all are off until you turn them on.
+(watchapp), and the Garmin plugin (GarminSmartwatchKit, experimental), which
+Add Watch offers like any watch. It has the LoopKit #684 rework: the watch
+plugin reads from Loop, and what Luped Remote may ask for (bolus, carbs, mute,
+presets) is the plugin's own setting, under Settings → Pebble → Luped Remote.
+All are off until you turn them on; Loop has no Watch Permissions screen.
 
 ## Clone
 
@@ -24,7 +26,7 @@ Every submodule commit is on GitHub. The local branches the submodules follow
 | LoopKit            | dabear/LoopKit                   | `smartwatch-manager-review-pr-plus-local-changes` |
 | GarminSmartwatchKit | dabear/GarminSmartwatchKit      | `main`                                            |
 
-Swift packages resolve from `Package.resolved` (elbbepTransport 1.4.6, Garmin's
+Swift packages resolve from `Package.resolved` (elbbepTransport 1.4.9, Garmin's
 Connect IQ SDK 1.8.0).
 
 ## Signing
@@ -58,4 +60,6 @@ Install Luped CGM and Luped Remote from the Pebble app store, or their PBWs
 from https://github.com/dabear/LupedPebbleWatchFace/releases. In Loop, add the
 Pebble under Settings → Devices; Luped Remote is off until you turn it on
 (Settings → Pebble → Watch App), which also links to it in the Pebble app store.
+Its switches for each request (Allow Boluses, Carbs, Mute, Presets from Watch)
+appear below it and are off until turned on.
 
